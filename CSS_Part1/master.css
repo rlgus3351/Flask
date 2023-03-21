@@ -1,0 +1,18 @@
+
+
+div{
+    background : rgb(220, 220, 253);
+
+    /* border 활성화 하려면 넓이와 스타일을 지정해줘야 한다. */
+    border :rgb(245, 245, 24) 2px solid;
+
+}
+
+p{
+    color: rgb(22, 22, 21);
+}
+
+span{
+    background: red;
+    color : black;
+}
