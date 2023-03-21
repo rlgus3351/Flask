@@ -1,0 +1,16 @@
+table, tr, td {
+    border: 1px solid black;
+    text-align: center;
+}
+table{
+    width: 800px;
+}
+
+li{
+    float:left;
+    margin-left: 20px;
+}
+
+ul{
+    list-style: none;
+}
