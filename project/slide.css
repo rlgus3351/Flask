@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding : 0;
+
+}
+li{
+    list-style: none;
+}
+
+.slide_wrapper{
+    position:relative;
+    margin: 0 auto;
+    /* 이미지 크기 *3  */
+    width: 1350px;
+    height : 300px;
+    overflow: hidden;
+
+}
+
+.slide_wrapper ul{
+    overflow: hidden;
+}
+.slides{
+    position: absolute;
+    left:0; 
+    top:0;
+    width: 2322px;
+}
+.slides li:first-child {
+    margin-left: 20px;
+}
+
+/* 막내는 필요없음 */
+.slides li:not(:last-child){
+    float:left;
+    margin-right : 34px;
+}
+/* 사진 크기 166*236 */
+/* 너비 166 * 12 + 30 *11  */
+
+.controls{
+    text-align: center;
+    margin-top: 50px;
+}
+.controls span{
+    background:#333;
+    color:#fff;
+    padding : 10px 20px;
+    margin : 0 10px;
+}
+.controls sppan.prev{right:calc(100%+50px);}
+.controls sppan.next{left:calc(100%+50px);}
