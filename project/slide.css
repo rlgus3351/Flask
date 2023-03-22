@@ -48,5 +48,6 @@ li{
     padding : 10px 20px;
     margin : 0 10px;
 }
-.controls sppan.prev{right:calc(100%+50px);}
-.controls sppan.next{left:calc(100%+50px);}
+.controls span.prev{right:calc(100%+50px);}
+.controls span.next{left:calc(100%+50px);}
+
