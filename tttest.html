@@ -1,4 +1,15 @@
-"에브리씽 에브리웨어 올 앳 원스",
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+    <script>
+        let title = ["에브리씽 에브리웨어 올 앳 원스",
 "서치",
 "노스맨",
 "놉",
@@ -93,4 +104,35 @@
 "돈 워리 달링",
 "내가 사는 피부",
 "더 퀸",
-"가재가 노래하는 곳"
+"가재가 노래하는 곳"];
+        console.log(title.length);
+        $(function() {
+		
+        // 리스트 생성
+        var testList = new Array() ;
+        
+    
+        for(var i=0; i<title.length; i++){
+            
+            // 객체 생성
+            var data = new Object() ;
+            
+            data.count = 1 ;
+            data.name = title[i] ;
+            // 리스트에 생성된 객체 삽입
+            testList.push(data) ;
+        }
+        
+        // String 형태로 변환
+        var jsonData = JSON.stringify(testList) ;
+        
+        console.log(testList);
+        
+        /*
+            출력결과 : [{"number":1,"name":"Tester #1"},{"number":2,"name":"Tester #2"}]
+        */
+        
+    });
+    </script>
+</body>
+</html>
