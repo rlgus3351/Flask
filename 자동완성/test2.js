@@ -1,40 +1,4 @@
 
-
-
-
-// let s_json1 = new Object();
-// let s_json2 = new Object();
-// let s_json3 = new Object();
-// let s_json4 = new Object();
-// let s_json5 = new Object();
-// let s_json6 = new Object();
-
-
-// s_json1.name = "에브리씽 에브리웨어 올 앳 원스";
-// s_json1.count = 1;
-
-// s_jsonArray.push(s_json1);
-
-// s_json2.name = "서치";
-// s_json2.count = 1;
-// s_jsonArray.push(s_json2);
-
-// s_json3.name = "노스맨";
-// s_json3.count = 1;
-// s_jsonArray.push(s_json3);
-
-// s_json4.name = "놉";
-// s_json4.count = 1;
-// s_jsonArray.push(s_json4);
-
-// s_json5.name = "바빌론";
-// s_json5.count = 1;
-// s_jsonArray.push(s_json5);
-
-// s_json6.name = "더 웨일";
-// s_json6.count = 1;
-// s_jsonArray.push(s_json6);
-
 let title = ["에브리씽 에브리웨어 올 앳 원스",
 "서치",
 "노스맨",
