@@ -1,16 +1,19 @@
-table, tr, td {
+table,
+tr,
+td {
     border: 1px solid black;
     text-align: center;
 }
-table{
+
+table {
     width: 800px;
 }
 
-li{
-    float:left;
+li {
+    float: left;
     margin-left: 20px;
 }
 
-ul{
+ul {
     list-style: none;
 }
